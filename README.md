@@ -15,21 +15,21 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 - Surge
 ***
 #### **_Getting Started_**
-[Click here to access the website!](http://www.my-battleship-game.surge.sh) | [Excalidraw Wireframe](https://excalidraw.com/#json=BW8bqyMbvTDCvlW9cOwSf,dQISyJW9DRdwKYYZIDZWSQ) | [Trello Board](https://trello.com/b/PAR61byO/battleship-browser-game)
+[Click here to access the website!](http://www.my-battleship-game.surge.sh) | [Excalidraw Wireframe](https://excalidraw.com/#json=dXAS6zt8PWtUIWVWOYB-3,6LpuAnunmRTP7qTNVltdMg) | [Trello Board](https://trello.com/invite/b/Ir8bLHn5/ATTI9cf3a8f5e5eae5bb1d75e11fd683e0847C2FFFEA/portfolio-website)
 ***
 #### **_Screenshots_**
 
 ##### Landing Page 
-![Intro. Screen](https://i.postimg.cc/GmC0NZS9/Start-Screen.png)
+![Intro. Screen]()
 
 ##### Contact Form
-![Secondary Screen](https://i.postimg.cc/V652n15Z/Ship-Selection.png)
+![Secondary Screen]()
 
 ##### Projects View
-![Game in Progress](https://i.postimg.cc/XYQ28hRR/Gameplay.png)
+![Game in Progress]()
 
-##### About Me 
-![Game Over Screen](https://i.postimg.cc/5ydpyMzC/Winner-Screen.png)
+##### About Me Screen
+![Game Over Screen]()
 
 ***
 #### **_Future Updates_**
