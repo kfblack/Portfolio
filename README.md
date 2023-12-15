@@ -15,7 +15,7 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 - Surge
 ***
 #### **_Getting Started_**
-[Click here to access the website!](http://www.my-battleship-game.surge.sh) | [Excalidraw Wireframe](https://excalidraw.com/#json=dXAS6zt8PWtUIWVWOYB-3,6LpuAnunmRTP7qTNVltdMg) | [Trello Board](https://trello.com/invite/b/Ir8bLHn5/ATTI9cf3a8f5e5eae5bb1d75e11fd683e0847C2FFFEA/portfolio-website)
+[Click here to access the website!](http://www.my-battleship-game.surge.sh) | [Excalidraw Wireframe](https://excalidraw.com/#json=sK437r6zq88ygl0Bss9mT,yMMAA0fNdvAMYEYWJUY0xw) | [Trello Board](https://trello.com/invite/b/Ir8bLHn5/ATTI9cf3a8f5e5eae5bb1d75e11fd683e0847C2FFFEA/portfolio-website)
 ***
 #### **_Screenshots_**
 

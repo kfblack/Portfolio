@@ -3,3 +3,25 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1vmin;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vmin;
+    width: 100vmin;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border: 1px solid black;
+}
