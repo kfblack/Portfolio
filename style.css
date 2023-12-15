@@ -11,6 +11,10 @@
 }
 
 .home {
+    background-image: url("https://i.postimg.cc/Gmk49ny3/blue-sky-clouds-anime-style-600nw-2157978867.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,4 +28,10 @@
     flex-direction: row;
     align-items: baseline;
     border: 1px solid black;
+}
+
+.welcome {
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
