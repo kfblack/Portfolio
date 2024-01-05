@@ -4,10 +4,29 @@
     padding: 0;
 }
 
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1vmin;
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: skyblue;
+    color: white;
+    padding: 1.5vmin;
+    font-size: 2vmin;
+    border: none;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 2vmin;
+    box-shadow: 2vmin;
+}
+
+.dropdown:hover .content {
+    display: block;
 }
 
 .home {
@@ -25,7 +44,7 @@
 
 .projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: baseline;
     border: 1px solid black;
 }
@@ -34,4 +53,42 @@
     color: white;
     font: 700 normal 2.5em 'tahoma';
     text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+.photo:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.photo {
+    height: 5vmin;
+    width: 5vmin;
+}
+
+.other-photo {
+    height: 5vmin;
+    width: 5vmin;
+}
+
+.projects-pic:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.projects-pic {
+    height: 35vmin;
+    width: 35vmin;
+}
+
+.titles {
+    color: skyblue
+}
+
+/* need to work on this part, this is saying "once the screen is small enough for a phone, then do whatever in these html sections to make it fit on a phone" */
+@media only screen and (max-width: 480) {
+    body {
+        grid-template-columns: 1fr 4fr;
+    }
 }
