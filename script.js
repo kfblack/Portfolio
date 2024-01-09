@@ -3,15 +3,15 @@ let gitPhoto = document.getElementById("github");
 let restaurantPhoto = document.getElementById("restaurant");
 
 linkedinPhoto.addEventListener("click", function() {
-        window.location.href = "https://www.linkedin.com/in/kalin-black/"
+        window.open("https://www.linkedin.com/in/kalin-black/", "_blank")
 })
 
 gitPhoto.addEventListener("click", function() {
-    window.location.href = "https://github.com/kfblack"
+    window.open("https://github.com/kfblack", "_blank")
 })
 
 restaurantPhoto.addEventListener("click", function() {
-    window.location.href = "https://restaurant-rater-cc16561bec50.herokuapp.com/"
+    window.open("https://restaurant-rater-cc16561bec50.herokuapp.com/", "_blank")
 })
 
 

@@ -45,7 +45,7 @@
 .projects {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
     border: 1px solid black;
 }
 
@@ -83,9 +83,23 @@
 }
 
 .titles {
-    color: skyblue
+    color: skyblue;
+    text-align: center;
 }
 
+.contact {
+    list-style-type: none;
+    background-color: lightgrey;
+}
+
+.technologies {
+    background-color: lightgrey;
+    border-top: 1px solid black;
+}
+
+.about-me {
+    border-top: 1px solid black;
+}
 /* need to work on this part, this is saying "once the screen is small enough for a phone, then do whatever in these html sections to make it fit on a phone" */
 @media only screen and (max-width: 480) {
     body {
