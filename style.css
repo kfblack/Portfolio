@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+.text {
+    font-family: "Lora", serif;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -39,7 +46,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vmin;
-    width: 100vmin;
+    width: 100vw;
 }
 
 .projects {
@@ -73,7 +80,7 @@
 
 .projects-pic:hover {
     transition: all .2s ease-in-out;
-    transform: scale(1.1);
+    transform: scale(1.01);
     cursor: pointer;
 }
 
@@ -85,24 +92,38 @@
 .titles {
     color: skyblue;
     text-align: center;
+    font-style: italic;
+    font-size: 3vmin;
 }
 
 .contact {
     list-style-type: none;
-    background-color: lightgrey;
+    background-color: rgb(240,240,240)
 }
 
 .technologies {
-    background-color: lightgrey;
+    background-color: rgb(240,240,240);
     border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies p {
+    line-height: 2;
 }
 
 .about-me {
     border-top: 1px solid black;
+    margin-bottom: 4vmin;
 }
-/* need to work on this part, this is saying "once the screen is small enough for a phone, then do whatever in these html sections to make it fit on a phone" */
-@media only screen and (max-width: 480) {
-    body {
-        grid-template-columns: 1fr 4fr;
-    }
+
+.about-me p {
+    line-height: 2;
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
 }

@@ -14,4 +14,12 @@ restaurantPhoto.addEventListener("click", function() {
     window.open("https://restaurant-rater-cc16561bec50.herokuapp.com/", "_blank")
 })
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
