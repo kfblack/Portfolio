@@ -10,6 +10,7 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 - HTML
 - CSS
 - JavaScript
+- EmailJS
 - VS Code
 - Warp
 - Surge

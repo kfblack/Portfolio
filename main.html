@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script defer src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalin Black</title>
@@ -85,12 +86,12 @@
             <li>Phone: 410-474-3186</li>
             <img class="other-photo" src="https://i.postimg.cc/D0kZRRVH/download.jpg" alt="GitHub">
         </ul>
-        <div class="form">
+        <div id="form" class="form">
             <form>
-                <input type="text" placeholder="Enter your name">
-                <input type="Email" placeholder="Enter your email">
-                <input type="text" placeholder="Enter your message">
-                <input type="submit" type="btn">
+                <input id="name" type="text" placeholder="Enter your name">
+                <input id="email" type="Email" placeholder="Enter your email">
+                <input id="message" type="text" placeholder="Enter your message">
+                <input id="submit" type="submit" type="btn">
             </form>
         </div>
     </div>
