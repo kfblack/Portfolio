@@ -131,3 +131,20 @@
     grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
 }
+
+#para {
+    text-align: center;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form input {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+}
