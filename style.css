@@ -11,6 +11,7 @@
     padding: 0;
 }
 
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -28,8 +29,22 @@
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 2vmin;
+    min-width: 150px;
     box-shadow: 2vmin;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.content a {
+    display: block;
+    padding: 12px;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.content a:hover {
+    background-color: #f2f2f2;
 }
 
 .dropdown:hover .content {
@@ -67,14 +82,15 @@
 }
 
 .photo:hover {
-    transition: all .2s ease-in-out;
-    transform: scale(1.1); 
+    transform: scale(1.1);
     cursor: pointer;
 }
 
 .photo {
     height: 5vmin;
     width: 5vmin;
+    transition: all .2s ease-in-out;
+
 }
 
 .other-photo {
@@ -127,9 +143,19 @@
 }
 
 .apps {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    list-style-type: none;
+    text-align: center;
+
+}
+
+.tech-item {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.tech-item p {
+    margin-top: 10px;
 }
 
 #para {
@@ -148,3 +174,4 @@
     width: 300px;
     height: 50px;
 }
+

@@ -12,75 +12,76 @@
     <div class="dropdown">
         <button class="dropdown-button">Menu</button>
         <div class="content">
-            <a id="home" href="#home">Home</a>
-            <a id="me" href="#me">About Me</a>
-            <a id="tech" href="#tech">Technologies</a>
-            <a id="proj" href="#proj">Projects</a>
-            <a id="contact" href="#contact">Contact</a>
+            <a id="me" href="#me-section">About Me</a>
+            <a id="tech" href="#tech-section">Technologies</a>
+            <a id="proj" href="#proj-section">Projects</a>
+            <a id="contact" href="#contact-section">Contact</a>
         </div>
     </div>
-    <div id="home" class="home">
+    <div id="home-section" class="home">
         <h1 class="welcome">Welcome! I'm Kalin Black</h1>
         <h2 class="welcome">Software Engineer</h2><br><br>
         <a class="welcome" href="https://docs.google.com/document/d/1ofVAF7dkQdyZfjnogTR6bLvOO6NSnOpxxkeBUT7wsvY/edit?usp=sharing" target="_blank">Resume</a>
     </div>
-    <div id="me" class="about-me text"><br>
+    <div id="me-section" class="about-me text"><br>
         <p class="titles">ABOUT ME</p><br><br>
         <p>Thank you for visiting my page! I am a professional with a solid background in diverse areas of teaching and learning, as well as experience with a multitude of programming languages/technologies. I recently pivoted my career due to my passion for computer science and programming, with its ever-changing dynamic and ability to influence many aspects of our lives! Take time to check out the site and visit some of my projects that I'm proud of!</p>
     </div>
-    <div id="tech" class="technologies text"><br>
+    <div id="tech-section" class="technologies text"><br>
         <p class="titles">TECHNOLOGIES</p><br><br>
         <p id="para">Making use of various forms of technologies, frameworks, libraries and more to create full-scale applications and more!</p><br><br>
-        <ul class="apps">
-            <li>React</li>
-            <img id="react" class="photo" src="https://i.postimg.cc/pX0WwyQv/download.png">
-            <li>JavaScript</li>
-            <img id="javascript" class="photo" src="https://i.postimg.cc/Bb6yHZj5/download-1.png">
-            <li>HTML</li>
-            <img id="html" class="photo" src="https://i.postimg.cc/MZPgxBL9/download-2.png">
-            <li>CSS</li>
-            <img id="css" class="photo" src="https://i.postimg.cc/prpGy0Sq/download.jpg">
-            <li>Python</li>
-            <img id="python" class="photo" src="https://i.postimg.cc/SNY1hvCK/download-3.png">
-            <li>Django</li>
-            <img id="django" class="photo" src="https://i.postimg.cc/jqMCb8KB/download-4.png">
-            <li>MongoDB</li>
-            <img id="mongo" class="photo" src="https://i.postimg.cc/DwL285kv/download-5.png">
-            <li>Node.js</li>
-            <img id="node" class="photo" src="https://i.postimg.cc/1RdPBbyR/download-6.png">
-            <li>PostgreSQL</li>
-            <img id="postgresql" class="photo" src="https://i.postimg.cc/bJBX62cV/download-7.png">
-            <li>Express.js</li>
-            <img id="express" class="photo" src="https://i.postimg.cc/rF6yc73n/download-8.png">
-            <li>Mongoose</li>
-            <img id="mongoose" class="photo" src="https://i.postimg.cc/90yhrFKx/download-9.png">
-            <li>Bootstrap</li>
-            <img id="bootstrap" class="photo" src="https://i.postimg.cc/9QHK793h/download-2.jpg">
-            <li>Git</li>
-            <img id="bootstrap" class="photo" src="https://i.postimg.cc/vB8d6VVB/download.png">
-            <li>Heroku</li>
-            <img id="bootstrap" class="photo" src="https://i.postimg.cc/h45qfhPD/download-1.jpg">
-        </ul>
+        <div class="apps">
+            <div class="tech-items">
+            <img class="photo" src="https://i.postimg.cc/pX0WwyQv/download.png">
+            <p>React</p>
+            <img class="photo" src="https://i.postimg.cc/Bb6yHZj5/download-1.png">
+            <p>JavaScript</p>
+            <img class="photo" src="https://i.postimg.cc/MZPgxBL9/download-2.png">
+            <p>HTML</p>
+            <img class="photo" src="https://i.postimg.cc/prpGy0Sq/download.jpg">
+            <p>CSS</p>
+            <img class="photo" src="https://i.postimg.cc/SNY1hvCK/download-3.png">
+            <p>Python</p>
+            <img class="photo" src="https://i.postimg.cc/jqMCb8KB/download-4.png">
+            <p>Django</p>
+            <img class="photo" src="https://i.postimg.cc/DwL285kv/download-5.png">
+            <p>MongoDB</p>
+            <img class="photo" src="https://i.postimg.cc/1RdPBbyR/download-6.png">
+            <p>Node.js</p>
+            <img class="photo" src="https://i.postimg.cc/bJBX62cV/download-7.png">
+            <p>PostgreSQL</p>
+            <img class="photo" src="https://i.postimg.cc/rF6yc73n/download-8.png">
+            <p>Express.js</p>
+            <img class="photo" src="https://i.postimg.cc/90yhrFKx/download-9.png">
+            <p>Mongoose</p>
+            <img class="photo" src="https://i.postimg.cc/9QHK793h/download-2.jpg">
+            <p>Bootstrap</p>
+            <img class="photo" src="https://i.postimg.cc/vB8d6VVB/download.png">
+            <p>Git</p>
+            <img class="photo" src="https://i.postimg.cc/h45qfhPD/download-1.jpg">
+            <p>Heroku</p>
+            </div>
+        </div>
     </div>
-    <div id="proj" class="projects text"><br>
+    <div id="proj-section" class="projects text"><br>
         <p class="titles">PROJECTS</p><br><br>
         <div class="project-container">
             <p>Project 1 - Restaurant Rater</p>
-                <img id="restaurant" class="projects-pic" src="https://i.postimg.cc/28xJGckG/Screenshot-2024-01-04-at-6-55-31-PM.png">
-            <p><a href="https://www.restaurant-rate.com/">About this project</p></a><br>
+            <a href="https://www.restaurant-rate.com/" target="_blank"><img class='projects-pic' src='https://i.postimg.cc/J4C1xHjm/Screenshot-2024-01-30-at-6-31-50-PM.png'</a>
+            <p><a href="">About this project</p></a><br>
         </div>
         <div class="project-container">
             <p>Project 2 - Zoolander School</p>
-                <img class="projects-pic" src="https://i.postimg.cc/pLpmPRrB/Screenshot-2024-01-27-at-3-05-33-PM.png">
-            <p><a href="https://zoolander-school-5ddc97d6bd9e.herokuapp.com/">About this project</p></a><br>
+            <a href="https://zoolander-school-5ddc97d6bd9e.herokuapp.com/" target="_blank"><img class="projects-pic" src="https://i.postimg.cc/pLpmPRrB/Screenshot-2024-01-27-at-3-05-33-PM.png"></a>
+            <p><a href="">About this project</p></a><br>
         </div>
         <div class="project-container">
             <p>Project 3 - </p>
-                <img class="projects-pic" src="">
+            <a href="" target="_blank"><img class="projects-pic" src=""></a>
             <p><a href="">About this project</p></a><br>
         </div>
     </div>
-    <div id="contact" class="contact text"><br>
+    <div id="contact-section" class="contact text"><br>
         <div class="titles"><ul> CONTACT ME </ul></div><br><br>
         <ul>
             <li>LinkedIn</li>
