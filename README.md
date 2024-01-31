@@ -20,24 +20,26 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 ***
 #### **_Screenshots_**
 
-##### Landing Page 
+##### Landing Screen 
 ![Intro. Screen]()
 
 ##### Contact Form
-![Secondary Screen]()
+![Conact Section]()
 
 ##### Projects View
-![Game in Progress]()
+![Projects Section]()
 
-##### About Me Screen
-![Game Over Screen]()
+##### About Me/Technologies
+![About Me/Technologies Section]()
 
 ***
 #### **_Future Updates_**
-- [ ] Add both light and dark mode
-- [ ] 
+- [ ] Add both light and dark mode to site
+- [ ] Incorporate more features, such as a nav bar or other necessary function
 ***
 #### **_Credits_**
 
-##### CSS Styling References: []()
+##### CSS Styling References: [W3 Schools](https://www.w3schools.com/css/default.asp)
+
+##### Additional Feature Help: [Email EJS]() | [Scrolling Functionality]()
 
