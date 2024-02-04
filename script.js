@@ -1,6 +1,5 @@
 let linkedinPhoto = document.getElementById("linkedin");
 let gitPhoto = document.getElementById("github");
-let restaurantPhoto = document.getElementById("restaurant");
 let submitButton = document.getElementById("submit");
 let contactForm = document.getElementById("form");
 let nameField = document.getElementById("name");
@@ -35,10 +34,6 @@ linkedinPhoto.addEventListener("click", function() {
 
 gitPhoto.addEventListener("click", function() {
     window.open("https://github.com/kfblack", "_blank")
-})
-
-restaurantPhoto.addEventListener("click", function() {
-    window.open("https://restaurant-rater-cc16561bec50.herokuapp.com/", "_blank")
 })
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

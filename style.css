@@ -75,6 +75,11 @@
     text-align: center;
 }
 
+#proj-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
 .welcome {
     color: white;
     font: 700 normal 2.5em 'tahoma';
@@ -88,10 +93,9 @@
 }
 
 .photo {
-    height: 5vmin;
-    width: 5vmin;
-    transition: all .2s ease-in-out;
-
+    width: 50px;
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
 .other-photo {
@@ -144,15 +148,17 @@
 }
 
 .apps {
-    text-align: center;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px; 
+    justify-content: center;
 }
 
-.tech-item {
-    display: inline-block;
+.tech-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin: 10px;
-    box-sizing: border-box;
 }
 
 .tech-item p {
@@ -161,6 +167,16 @@
 
 #para {
     text-align: center;
+}
+
+#contact-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#me-section, #tech-section {
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 #form form{
