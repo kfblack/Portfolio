@@ -1,10 +1,10 @@
 # Portfolio Website
-#### Date: 01/04/2023
+#### Date: 02/04/2023
 #### By: Kalin Black 
 #### [Linkedin](https://www.linkedin.com/in/kalin-black/) | [GitHub](https://github.com/kfblack)
 ***
 #### **_Description_**
-This is my personal portfolio website, for showcasing my relevant skills, projects and various information!
+This is my personal portfolio website, for showcasing my relevant skills, projects and other various information!
 ***
 #### **_Technologies Used_**
 - HTML
@@ -14,6 +14,7 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 - VS Code
 - Warp
 - Surge
+- AOS Library
 ***
 #### **_Getting Started_**
 [Click here to access the website!]() | [Trello Board](https://trello.com/invite/b/Ir8bLHn5/ATTI9cf3a8f5e5eae5bb1d75e11fd683e0847C2FFFEA/portfolio-website)
@@ -35,7 +36,6 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 ***
 #### **_Future Updates_**
 - [ ] Add both light and dark mode to site
-- [ ] Incorporate more features, such as a nav bar or other necessary function
 ***
 #### **_Credits_**
 

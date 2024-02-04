@@ -11,13 +11,18 @@
     <title>Kalin Black</title>
 </head>
 <body>
-    <div class="dropdown">
-        <button class="dropdown-button">Menu</button>
-        <div class="content">
-            <a id="me" href="#me-section">About Me</a>
-            <a id="tech" href="#tech-section">Technologies</a>
-            <a id="proj" href="#proj-section">Projects</a>
-            <a id="contact" href="#contact-section">Contact</a>
+    <div class="nav-bar">
+        <div class="nav-content">
+            <div class="dropdown">
+                <button class="dropdown-button">Menu</button>
+                <div class="content">
+                    <a id="me" href="#me-section">About Me</a>
+                    <a id="tech" href="#tech-section">Technologies</a>
+                    <a id="proj" href="#proj-section">Projects</a>
+                    <a id="contact" href="#contact-section">Contact</a>
+                </div>
+            </div>
+            <h1>Kalin Black</h1>
         </div>
     </div>
     <div id="home-section" class="home">
@@ -25,14 +30,14 @@
         <h2 class="welcome">Full-Stack Software Engineer</h2><br><br>
         <a href="https://docs.google.com/document/d/1ofVAF7dkQdyZfjnogTR6bLvOO6NSnOpxxkeBUT7wsvY/edit?usp=sharing" target="_blank"><button id="resume" class="welcome">Resume</button></a>
     </div>
-    <div id="me-section" class="about-me text" data-aos="fade-up" data-aos-duration=1200"><br>
+    <div id="me-section" class="about-me text" data-aos="fade-up" data-aos-duration=3000"><br>
         <p class="titles">ABOUT ME</p><br><br>
         <p id="para">Thank you for visiting my page! I am a professional with a solid background in diverse areas of teaching and learning, as well as experience with a multitude of programming languages/technologies. I recently pivoted my career due to my passion for computer science and programming, with its ever-changing dynamic and ability to influence many aspects of our lives! Recently completing my immersive software engineering program, I continue to learn and practice my skills in order to continue to improve my abilities! Take time to check out the site and visit some of my projects that I'm proud of! If you are interested, there my contact information is below as well as a form to fill out to email me!</p>
     </div>
-    <div id="tech-section" class="technologies text" data-aos="fade-up" data-aos-duration=1200"><br>
+    <div id="tech-section" class="technologies text" data-aos="fade-up" data-aos-duration=3000"><br>
         <p class="titles">TECHNOLOGIES</p><br><br>
         <p id="para">Making use of various forms of technologies, frameworks, libraries and more to create full-scale applications! I continue to grow this list as I keep up with current improvements, changes, and introductions of new technology as well as other additions to my tool-belt!</p><br><br>
-        <div class="apps" data-aos="fade-right">
+        <div class="apps" data-aos="fade-right" data-aos-duration="1000">
             <div class="tech-items">
                 <img class="photo" src="https://i.postimg.cc/pX0WwyQv/download.png">
                 <p>React</p>
@@ -91,7 +96,7 @@
             </div>
         </div>
     </div>
-    <div id="proj-section" class="projects text" data-aos="fade-up" data-aos-duration=1200"><br>
+    <div id="proj-section" class="projects text" data-aos="fade-up" data-aos-duration=3000"><br>
         <p class="titles">PROJECTS</p><br><br>
         <div class="flip-card">
             <div class="flip-card-inner">
@@ -133,18 +138,19 @@
             </div>
         </div>
     </div>
-    <div id="contact-section" class="contact text" data-aos="fade-up" data-aos-duration=1200"><br>
+    <div id="contact-section" class="contact text" data-aos="fade-up" data-aos-duration=3000"><br>
         <div class="titles"><ul> CONTACT ME </ul></div><br><br>
-        <ul>
-            <li>LinkedIn</li>
-            <img id="linkedin" class ="photo" src="https://i.postimg.cc/Y0G9Pky1/download-3.png" alt="GitHub">
-            <li>Github</li>
-            <img id="github" class="photo" src="https://i.postimg.cc/j2Kggdj1/download-1.png" alt="GitHub">
-            <li><a href="kalinblack21@gmail.com">Email</a></li>
-            <img  class="other-photo" src="https://i.postimg.cc/7PF0yQMx/download-4.png" alt="GitHub">
-            <li>Phone: 410-474-3186</li>
-            <img class="other-photo" src="https://i.postimg.cc/D0kZRRVH/download.jpg" alt="GitHub">
-        </ul>
+            <div class="contact-group">
+                <h3>Socials</h3>
+                    <div class="contact-item">
+                        <span>LinkedIn</span>
+                        <img id="linkedin" class ="photo" src="https://i.postimg.cc/Y0G9Pky1/download-3.png" alt="LinkedIn">
+                    </div>
+                    <div class="contact-item">
+                        <span>Github</span>
+                        <img id="github" class="photo" src="https://i.postimg.cc/j2Kggdj1/download-1.png" alt="GitHub">
+                    </div>
+            </div>
         <div id="form" class="form">
             <form>
                 <input id="name" type="text" placeholder="Enter your name">
@@ -152,6 +158,17 @@
                 <input id="message" type="text" placeholder="Enter your message">
                 <input id="submit" type="submit" class="btn">
             </form>
+        </div>
+        <div class="contact-group">
+            <h3>Additional Contact</h3>
+                <div class="contact-item">
+                    <span><a href="kalinblack21@gmail.com">Email</a></span>
+                    <img  class="other-photo" src="https://i.postimg.cc/7PF0yQMx/download-4.png" alt="GitHub">
+                </div>
+                <div class="contact-item">
+                    <span>Phone: 410-474-3186</span>
+                    <img class="other-photo" src="https://i.postimg.cc/D0kZRRVH/download.jpg" alt="GitHub">
+                </div>
         </div>
     </div>
 </body>

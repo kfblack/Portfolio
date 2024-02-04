@@ -11,6 +11,26 @@
     padding: 0;
 }
 
+.nav-bar {
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    background-color: rgb(240,240,240); 
+    color: #333333; 
+    z-index: 1000; 
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); 
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    max-width: 1200px; 
+}
 
 .dropdown {
     position: relative;
@@ -262,4 +282,33 @@
 #home-section h2 {
     font-style: italic;
     font-size: 35px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.contact-group, .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0; 
+}
+
+.contact-item img, .contact-item span {
+    margin-right: 10px; 
+}
+
+.contact-group h3 {
+    padding-bottom: 15px;
+    text-decoration: underline;
 }
