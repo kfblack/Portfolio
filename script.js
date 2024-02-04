@@ -10,6 +10,8 @@ const publicKey = "eeD7X_4YtFaaqYdOn";
 const serviceId = "service_toze04u";
 const templateId = "template_o187od1";
 
+AOS.init();
+
 emailjs.init(publicKey);
 
 contactForm.addEventListener("submit", function(evt) {
