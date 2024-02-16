@@ -1,5 +1,5 @@
 # Portfolio Website
-#### Date: 02/07/2023
+#### Date: 02/16/2023
 #### By: Kalin Black 
 #### [Linkedin](https://www.linkedin.com/in/kalin-black/) | [GitHub](https://github.com/kfblack)
 ***
@@ -28,7 +28,7 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 ![Conact Section](https://i.postimg.cc/zvkPFBzb/Screenshot-2024-02-16-at-10-24-02-AM.png)
 
 ##### Projects View
-![Projects Section]()
+![Projects Section](https://i.postimg.cc/qM243XHg/Screenshot-2024-02-16-at-10-30-28-AM.png)
 
 ##### About Me/Technologies
 ![About Me/Technologies Section](https://i.postimg.cc/90Psgbpf/Screenshot-2024-02-16-at-10-24-13-AM.png)
@@ -41,5 +41,5 @@ This is my personal portfolio website, for showcasing my relevant skills, projec
 
 ##### CSS Styling References: [W3 Schools](https://www.w3schools.com/css/default.asp)
 
-##### Additional Feature Help: [Email EJS]() | [Scrolling Functionality]()
+##### Additional Feature Help: [Email JS](https://www.emailjs.com/docs/tutorial/creating-contact-form/) | [Scrolling Functionality](https://www.youtube.com/watch?v=KAG5wNPdoTw&ab_channel=GreatStack)
 
